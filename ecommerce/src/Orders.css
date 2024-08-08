@@ -1,0 +1,16 @@
+.orders {
+    padding: 20px 80px;
+}
+
+.orders > h1 {
+    margin: 30px 0;
+}
+
+.orders > .orders_alert > h3 {
+    padding-top: 20px;
+}
+
+.orders > .orders_alert > h2,
+.orders > .orders_alert > h3 {
+    text-align: center;
+}

@@ -1,0 +1,96 @@
+.login_wrapper {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 400px;
+}
+
+.login_logo {
+    display: block;
+    margin: 0 auto 30px;
+    width: 120px;
+}
+
+.login_container > h1 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #1c1e21;
+}
+
+.login_container > form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login_container > h5 {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    color: #606770;
+}
+
+.login_container > form > input {
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    font-size: 16px;
+    padding: 14px 16px;
+    margin-bottom: 15px;
+}
+
+.login_signInButton,
+.login_registerButton {
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login_signInButton:hover {
+    background-color: #166fe5;
+}
+
+.login_signInButton:disabled {
+    background-color: #9cb3d8;
+    cursor: not-allowed;
+}
+
+.login_registerButton {
+    background-color: #42b72a;
+}
+
+.login_registerButton:hover {
+    background-color: #36a420;
+}
+
+.login_container > p {
+    font-size: 12px;
+    color: #606770;
+    margin: 20px 0;
+}
+
+@media (max-width: 768px) {
+    .login {
+        width: 90%;
+        padding: 20px;
+    }
+}
